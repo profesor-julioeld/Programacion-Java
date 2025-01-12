@@ -1,0 +1,20 @@
+EJERCICIOS DE MATRICES
+
+1) Resolver las funciones de inserción. 
+Hay un fichero java con los prototipos de las funciones a desarrollar.
+A la hora de la búsqueda del punto en el que insertar el valor dentro del array ordenado, se sugiere usar la búsqueda dicotómica (binarySearch)
+2) Idem para las funciones de Borrado
+3) Hacer un programa que lea por teclado las posiciones de una cuadrícula de sudoku de 3x3 y determine si es una solución o no
+4) Mejorar el ejercicio 3 para que rellene las casillas de forma aleatorio (valor de 1 a 9) un número concreto de ellas
+5) Mejorar el ejercicio 4 para que las rellene de forma aleatoria pero sea una solución. 
+6) Hacer un programa para jugar a las tres en raya.
+El programa irá pidiendo la posición en la que poner la X o O según el turno, la posición se pedirá como un valor
+de 1 a 3 para la fila y otro de 1 a 3 para la columna.
+En caso de que uno de los jugadores gane deberá indicarlo, idem en caso de empate
+7) Apoyándote en la clase Tablero, haz una versión de tres en raya gráfica y con eventos
+No te preocupes porque tanto la gestión de los gráficos como de eventos la he escondido dentro de la clase
+Para que por ahora no tengas que preocuparte de ello (pero puedes analizar la codificación de Tablero si te ves con ganas)
+8) Dado una matriz cuadrada de 4x4 rellena con números aleatorios del 1 al 9, calcular la suma por filas y por columnas y mostrar todos esos datos en forma de matriz 5x5
+
+Tienes una versión de los ejercicios 3 a 5 usando POO (Programación Orientada a Objetos), su resolución se 
+simplifica mucho al usar los principios POO

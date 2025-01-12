@@ -1,0 +1,17 @@
+ Se pide resolver las siguientes actividades de amplicación del tema 3 (pag 91) y algún añadido
+   1) Convertir un número en base decimal a cualquier otra base
+   usando sólo los operadores +,-,*,/ del tipo int para las operaciones de conversión
+   El resultado lo puedes almacenar en String o StringBuilder
+   Para probar el funcionamiento del programa se pedirá:
+   	- Número a traducir
+   	- Base del número traducido de 2 a 10
+   2) Idem pero al revés
+   En este caso puedes usar las funciones de String
+   y la traducción de un char a su valor numérico
+   3) Dado un número n calcular los números primos <=n
+   4) Tendrás que sustituir todos los caracteres que se escriban por el terminal y
+   que aparezcan en la cadena Origen (ejem: "áéíóú") por los cacteres en las mismas posiciones 
+   en la cadena Destino (ejem:"aeiou"). En el caso de escribir León el programa obtendrá Leon para
+   los valores de las cadenas del ejemplo. 
+   No se puede usar ninguna función que resuelva directamente este ejercicio, en su lugar tendremos
+   que diseñar un algoritmo que lo haga
