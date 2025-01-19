@@ -12,7 +12,7 @@ public class Punto5_Ejercicio2 {
 		int paraDevolver[]=new int[n-1];
 		// Copia desde 0 a posicion-1 
 		System.arraycopy(inicio, 0, paraDevolver, 0, posicion);
-		// Copia desde posicion hasta n-1
+		// Copia desde posicion+1 hasta n-1
 		System.arraycopy(inicio, posicion+1, paraDevolver, posicion, n-posicion-1);
 		return paraDevolver;
 	}

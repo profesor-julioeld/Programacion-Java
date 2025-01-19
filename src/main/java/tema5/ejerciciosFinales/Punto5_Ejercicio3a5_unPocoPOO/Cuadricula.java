@@ -21,7 +21,7 @@ public class Cuadricula {
 	}
 	
 	/**
-	 *  Este función te pedirá por teclado los valores para todos los elementos de la cuadrícula
+	 *  Esta función te pedirá por teclado los valores para todos los elementos de la cuadrícula
 	 *  Puedes poner un número del 1 al nxn, si no quieres ocupar ese elemento escribe algo diferente   
 	 */
 	public void carga() {
@@ -58,9 +58,9 @@ public class Cuadricula {
 	}
 	
 	@Override
-	/**
-	 * Sobreescribe toString de Objeto para que represente la Cuadrícula
-	 * con sus elementos escritos empezando por filas
+	/*
+	  Sobreescribe toString de Objeto para que represente la Cuadrícula
+	  con sus elementos escritos empezando por filas
 	 */
 	public String toString() {
 		// Son pocos objetos pero quizás mejor con StringBuffer

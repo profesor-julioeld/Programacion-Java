@@ -3,11 +3,13 @@ package tema5.ejerciciosFinales;
 import java.util.Arrays;
 
 public class Punto5_Ejercicio1 {
-	// La siguiente función devuelve un nuevo array con los mismos valores
-	// que inicio y un nuevo valor insertado en posicion (indice de 0 a n)
-	// siendo n la longitud del array inicio
-	// Si posicion no está entre 0 y n se devuelve inicio
-	private static int[] insertaPosicion(int inicio[],int valor,int posicion) {
+	/*
+	 La siguiente función devuelve un nuevo array con los mismos valores
+	 que inicio y un nuevo valor insertado en posicion (indice de 0 a n)
+	 siendo n la longitud del array inicio
+	 Si posicion no está entre 0 y n se devuelve inicio
+	*/
+    private static int[] insertaPosicion(int inicio[],int valor,int posicion) {
 		int n=inicio.length;
 		if (posicion<0 || posicion>n) return inicio;
 		int paraDevolver[]=new int[n+1];

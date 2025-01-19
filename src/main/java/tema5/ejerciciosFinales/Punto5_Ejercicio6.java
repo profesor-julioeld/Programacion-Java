@@ -17,6 +17,9 @@ public class Punto5_Ejercicio6 {
 		poneHuecos(cuadricula);
 		Scanner entrada=new Scanner(System.in);
 		char turno=X;
+		// Se puede plantear también un for de 9 tiradas pero
+		// no funcionaría si tienes en cuenta que un jugador
+		// puede perder el turno si tarda en decir la jugada
 	    do {
 	    	imprime(cuadricula);
 	    	turno=turno==X?O:X; // Cambio de turno
@@ -30,12 +33,12 @@ public class Punto5_Ejercicio6 {
 	    	vhayHuecos=hayHuecos(cuadricula);
 	    	vganador=ganador(cuadricula,turno);
 	    } while (vhayHuecos && ! vganador);
+		// Si sale es porque !vhayHuecos || vganador
 	    imprime(cuadricula);
 	    entrada.close();
 	    entrada=null;
 	    if (vganador) System.out.println(" Ganador "+turno);
-	    else 
-	    	if (vhayHuecos) System.out.println(" Tablas ");
+	    else System.out.println(" Tablas ");
 	}
 	
 	// Devuelve true si hay tres elementos valor (será 'X' o 'O')
@@ -50,7 +53,7 @@ public class Punto5_Ejercicio6 {
 			   (c[0][2]==valor && c[0][2]==c[1][2] && c[1][2]==c[2][2]) ||
 			   (c[0][0]==valor && c[0][0]==c[1][1] && c[1][1]==c[2][2]) ||
 			   (c[0][2]==valor && c[0][2]==c[1][1] && c[1][1]==c[2][0]); 
-	} 
+	}
 	
 	// Devuelve true si hay algún hueco
 	private static boolean hayHuecos(char[][] c) {
@@ -59,7 +62,7 @@ public class Punto5_Ejercicio6 {
 				if (valor==VACIO) {
 					return true;
 				}
-		return true;
+		return false;
 	}
 	
 	private static void imprime(char cuadricula[][]) {
