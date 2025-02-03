@@ -13,7 +13,7 @@ public class OrdenacionSpain {
     public static void main(String[] args) {
 
         // Quito los acentos
-        System.out.println(quitoAcentos("árbol"));
+        System.out.println("Quito acentos="+quitoAcentos("árbol"));
         // Comparación no sigue alfabeto Español
         String s="ñoño",d="oca";
         // El resultado debería ser negativo pero da positivo porque ñoño>oca
@@ -31,7 +31,7 @@ public class OrdenacionSpain {
         // Ves cambiando el valor y observa los resultados
         //comparador.setStrength(Collator.PRIMARY);
         //comparador.setStrength(Collator.SECONDARY);
-        //comparador.setStrength(Collator.TERTIARY);
+        comparador.setStrength(Collator.TERTIARY);
         // Podemos comparar Sting usando el Collator creado
         String a1="álava",a2="alava",a3="Alava";
         System.out.println(comparador.compare(a1,a2));
