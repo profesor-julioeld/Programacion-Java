@@ -1,4 +1,4 @@
-package examenes.matrices.correcciones.alumno599238;
+package examenes.matrices.anulado.correcciones.alumno599238;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.

@@ -1,4 +1,4 @@
-package examenes.matrices.correcciones.alumno705088;
+package examenes.matrices.anulado.correcciones.alumno705088;
 
 /*
 He puesto un metodo de bandera, y para el isDigit he puesto caracter. para borrar

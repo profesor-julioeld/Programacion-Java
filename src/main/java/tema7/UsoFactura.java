@@ -2,7 +2,7 @@ package tema7;
 
 import java.util.Date;
 
-public class usoFactura {
+public class UsoFactura {
     public static void main(String[] args) {
         try (Factura f=new Factura()) {
             f.setNumFactura("2025/A/1");

@@ -4,10 +4,12 @@ import java.util.Date;
 
 // Esta clase la vamos a manejar de forma estática y dinámica
 // no tendrá Main, la función principal irá en otra clase
+
+
 public class Factura implements AutoCloseable{
     // ATRIBUTOS:
     // Atributos estáticos de la clase Factura
-    private static int cuantas=0; // Para saber cuántas facturas se han creado
+    private static int cuantas=0; // Para saber cuántas facturas están activas
     private static int idMax=0; // Es el id más alto que se ha dado
     // Atributos dinámicos de una factura
     private int id;
@@ -84,7 +86,7 @@ public class Factura implements AutoCloseable{
         // Decremento el número de objetos factura
         Factura.cuantas--;
     } */
-    // Este método lo creo con Generate
+    // Este método lo creo con Generate pero retoco un poco
     @Override
     public String toString() {
         return "Factura{" +

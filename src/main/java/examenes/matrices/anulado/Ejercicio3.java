@@ -1,4 +1,4 @@
-package examenes.matrices;
+package examenes.matrices.anulado;
 
 import tema5.ejerciciosFinales.Punto5_Ejercicio7_unPocoGraficos.Tablero;
 

@@ -1,4 +1,4 @@
-package examenes.matrices.correcciones.alumno659727;
+package examenes.matrices.anulado.correcciones.alumno659727;
 
 import java.util.Arrays;
 
