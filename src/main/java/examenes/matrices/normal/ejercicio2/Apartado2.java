@@ -5,7 +5,6 @@ public class Apartado2 {
         // Lo ideal es gestionar los errores por excepciones
         // por requerimiento lo hacemos por mensajes en out
         if (args.length!=3 || !esNum(args[0]) || !esOp(args[1]) || !esNum(args[2])){
-            System.err.println("ERROR - Uso 234 + 34"); //MOD 10-02-25: No sale por canal de error
             System.exit(-1);
         }
         int op1=Integer.parseInt(args[0]);
