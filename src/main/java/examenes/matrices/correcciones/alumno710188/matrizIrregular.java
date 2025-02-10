@@ -1,4 +1,4 @@
-package examenes.matrices.anulado.correcciones.alumno710188;
+package examenes.matrices.correcciones.alumno710188;
 
 public class matrizIrregular {
     private final static int MAX=3;

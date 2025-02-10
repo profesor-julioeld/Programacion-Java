@@ -1,4 +1,4 @@
-package tema7.Punto5_Hasta_07_07;
+package tema7;
 
 import java.util.Scanner;
 

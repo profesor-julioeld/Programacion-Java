@@ -1,4 +1,4 @@
-package examenes.matrices.anulado.correcciones.alumno561212;
+package examenes.matrices.correcciones.alumno561212;
 
 import java.util.Random;
 

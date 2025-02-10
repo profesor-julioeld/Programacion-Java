@@ -1,4 +1,4 @@
-package examenes.matrices.anulado;
+package examenes.matrices;
 
 import java.util.Arrays;
 

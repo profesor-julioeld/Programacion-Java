@@ -1,4 +1,4 @@
-package examenes.matrices.anulado.correcciones.alumno707558;
+package examenes.matrices.correcciones.alumno707558;
 
 public class Alumno707558 {
     public final static int F=4;

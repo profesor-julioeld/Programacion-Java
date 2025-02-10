@@ -1,4 +1,4 @@
-package examenes.matrices.anulado.correcciones.alumno659727;
+package examenes.matrices.correcciones.alumno659727;
 
 public class Ejercicio3 {
     public static void main(String[] args) {

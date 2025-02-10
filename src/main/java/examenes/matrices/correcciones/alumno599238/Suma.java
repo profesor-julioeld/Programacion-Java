@@ -1,4 +1,4 @@
-package examenes.matrices.anulado.correcciones.alumno599238;
+package examenes.matrices.correcciones.alumno599238;
 
 public class Suma {
     private static int suma(String args[]){

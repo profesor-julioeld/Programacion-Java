@@ -1,4 +1,4 @@
-package examenes.matrices.anulado.correcciones.alumno599238;
+package examenes.matrices.correcciones.alumno599238;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

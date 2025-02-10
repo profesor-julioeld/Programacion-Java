@@ -1,4 +1,4 @@
-package examenes.matrices.anulado;
+package examenes.matrices;
 
 public class Suma {
     public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class Suma {
         for (int i=s.length()-1;i>=0;i--){
             char c=s.charAt(i);
             if (Character.isDigit(c)){
-                int valor=Character.getNumericValue(c);
+   ;             int valor=Character.getNumericValue(c);
                 resultado+=valor*potencia;
                 potencia*=10;
             }
